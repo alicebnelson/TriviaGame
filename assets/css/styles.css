@@ -1,0 +1,57 @@
+html,body{ margin:0; padding:0; height:100%; width:100%; }
+
+body {
+    background-image: url("../images/catbg.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    font-family: 'Macondo Swash Caps', cursive;
+
+}
+
+.start {
+    text-align: center;
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: 20px;
+    background-color: hotpink;
+    color: blueviolet;
+    margin-top: 5em;
+}
+.triviaContainer {
+    background-color: aliceblue;
+    margin-top: 3em;
+    padding-bottom: 3em;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+
+.buttonDiv {
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+}
+
+#counter {
+   font-size: 30px;
+   font-family: 'Macondo Swash Caps', cursive;
+   color: hotpink; 
+}
+
+#triviaForm {
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.answer {
+    margin-left: 30px !important; 
+    margin-right: 5px !important;
+}
+
+#scoreCard {
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}

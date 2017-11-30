@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    
+    
+    <title>Kitty Trivia!</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Macondo+Swash+Caps" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+      <div class="container">
+      <div class="triviaContainer container">
+        <h1 class="text-center">Nine Lives Kitty Trivia</h1>
+        <div class = "buttonDiv">
+            <button class="start btn">
+                <p>Start Right Meow!</p>
+            </button>
+        </div>  
+        
+        <!--hidden div -->
+        <div id="triviaForm">
+            <form action=""> 
+                <div class="text-center" id="counter">
+                </div>   
+            <p>1. Who invented the cat-flap?</p>
+            <input class="answer" type ="radio" name="question1" value="sirIsaacNewtonTrue">Sir Issac Newton<!--Each right answer has True after it -->
+            <input class="answer" type ="radio" name="question1" value="benjaminFranklin">Benjamin Franklin
+            <input class="answer" type ="radio" name="question1" value="cleopatra">Cleopatra
+            <input class="answer" type ="radio" name="question1" value="marieCurie">Marie Curie<br><br>
+                <p>2. About how many breeds of cats are there?</p>
+            <input class="answer" type ="radio" name="question2" value="200"> 200
+            <input class="answer" type ="radio" name="question2" value="100True"> 100
+            <input class="answer" type ="radio" name="question2" value="20"> 20
+            <input class="answer" type ="radio" name="question2" value="329"> 329<br><br>
+                 <p>3. What percentage of a cat's life does it groom itself?</p>
+            <input class="answer" type ="radio" name="question3" value="15"> 15
+            <input class="answer" type ="radio" name="question3" value="50"> 50
+            <input class="answer" type ="radio" name="question3" value="25"> 25
+            <input class="answer" type ="radio" name="question3" value="30True"> 30<br><br>
+                <p>4. Cats purr at _____ cycles per second.</p>
+            <input class="answer" type ="radio" name="question4" value="10"> 10
+            <input class="answer" type ="radio" name="question4" value="121"> 121
+            <input class="answer" type ="radio" name="question4" value="26True"> 26
+            <input class="answer" type ="radio" name="question4" value="52"> 52<br><br>
+                <p>5. This group of people was the first to realize the cat's potential as a vermin hunter.</p>
+            <input class="answer" type ="radio" name="question5" value="ancientEgyptiansTrue"> Ancient Egyptians
+            <input class="answer" type ="radio" name="question5" value="ancientGreeks"> Ancient Greeks
+            <input class="answer" type ="radio" name="question5" value="ancientBabylonians"> Ancient Babylonians
+            <input class="answer" type ="radio" name="question5" value="AncientPersian"> Ancient Persian<br><br>
+                <p>6. What is NOT the name of Taylor Swift's cats?</p>
+            <input class="answer" type ="radio" name="question6" value="Meredith"> Meredith 
+            <input class="answer" type ="radio" name="question6" value="Olivia"> Olivia
+            <input class="answer" type ="radio" name="question6" value="MargaretTrue"> Margaret<br><br>
+                <p>7. In Sweden, Garfield is known by this name:</p>
+            <input class="answer" type ="radio" name="question7" value="GustavTrue"> Gustav
+            <input class="answer" type ="radio" name="question7" value="Olaf"> Olaf
+            <input class="answer" type ="radio" name="question7" value="Anton"> Anton
+            <input class="answer" type ="radio" name="question7" value="Gregson"> Gregson<br><br>
+                <p>8. This is the technical term for a cat's hariball:</p>
+            <input class="answer" type ="radio" name="question8" value="capillus"> Capillus Pila
+            <input class="answer" type ="radio" name="question8" value="follicle"> Follicle Ballicle
+            <input class="answer" type ="radio" name="question8" value="bezoarTrue"> Bezoar<br><br>
+                <p>9. A group of cats is called a:</p>
+            <input class="answer" type ="radio" name="question9" value="shadow"> Shadow
+            <input class="answer" type ="radio" name="question9" value="killing"> Killing
+            <input class="answer" type ="radio" name="question9" value="clowderTrue"> Clowder<br><br>
+            </form>  
+        </div>
+        <!--hidden div -->
+        <div id="scoreCard">
+            <p class="fontStyle">Right: <span id="correctAnswer"></span></p>
+            <p class="fontStyle">Wrong: <span id="wrongAnswer"></p>
+            <p class="fontStyle">Unanswered: <span id="unAnswered"></span></p>
+        </div>
+    </div>
+    </div>      
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+  </body>
+</html>
